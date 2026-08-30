@@ -1,0 +1,6 @@
+- insert:
+    - id: dsh-wsl-dns
+      name: dsh-wsl-dns
+      config:
+        timeoutMs: 15000
+        hosts: [api.github.com, registry.npmjs.org]
