@@ -1,6 +1,4 @@
-# 
-
-DeepSeek Harness 工具：**${tool}** — 
+# dsh-wsl-dns
 
 DeepSeek Harness 工具：**`dns_doctor`** — 对比 WSL resolv.conf 与 Windows DNS，并解析关键主机。
 
@@ -28,8 +26,8 @@ dsh plugin --profile web add github:173787247/dsh-wsl-dns
 - id: dsh-wsl-dns
   name: dsh-wsl-dns
   config:
-        timeoutMs: 15000
-        hosts: [api.github.com, registry.npmjs.org]
+    timeoutMs: 15000
+    hosts: [api.github.com, registry.npmjs.org]
 ```
 
 | 键 | 默认 | 含义 |
