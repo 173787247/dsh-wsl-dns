@@ -1,4 +1,6 @@
-# dsh-wsl-dns
+# 
+
+DeepSeek Harness 工具：**${tool}** — 
 
 DeepSeek Harness 工具：**`dns_doctor`** — 对比 WSL resolv.conf 与 Windows DNS，并解析关键主机。
 

@@ -1,4 +1,6 @@
-# dsh-wsl-dns
+# 
+
+DeepSeek Harness tool: **${tool}** — 
 
 DeepSeek Harness tool: **`dns_doctor`** — DeepSeek Harness tool: compare WSL resolv.conf vs Windows DNS and resolve key hosts.
 
