@@ -1,8 +1,6 @@
-# 
+# dsh-wsl-dns
 
-DeepSeek Harness tool: **${tool}** — 
-
-DeepSeek Harness tool: **`dns_doctor`** — DeepSeek Harness tool: compare WSL resolv.conf vs Windows DNS and resolve key hosts.
+DeepSeek Harness tool: **`dns_doctor`** — compare WSL resolv.conf vs Windows DNS and resolve key hosts.
 
 Part of **[dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit)**.
 
@@ -28,8 +26,8 @@ Restart `dsh web`. New session → Tools should list `dns_doctor`.
 - id: dsh-wsl-dns
   name: dsh-wsl-dns
   config:
-        timeoutMs: 15000
-        hosts: [api.github.com, registry.npmjs.org]
+    timeoutMs: 15000
+    hosts: [api.github.com, registry.npmjs.org]
 ```
 
 | Key | Default | Meaning |
