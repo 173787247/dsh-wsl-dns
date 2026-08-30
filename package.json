@@ -1,0 +1,43 @@
+{
+  "name": "dsh-wsl-dns",
+  "version": "0.1.0",
+  "description": "DeepSeek Harness tool: compare WSL resolv.conf vs Windows DNS and resolve key hosts.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/173787247/dsh-wsl-dns.git"
+  },
+  "bugs": {
+    "url": "https://github.com/173787247/dsh-wsl-dns/issues"
+  },
+  "homepage": "https://github.com/173787247/dsh-wsl-dns#readme",
+  "type": "module",
+  "main": "index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/dns.test.js"
+  },
+  "files": [
+    "index.js",
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "README.zh.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "wsl",
+    "dns",
+    "resolv",
+    "vpn"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
