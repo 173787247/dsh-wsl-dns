@@ -1,7 +1,7 @@
 {
   "name": "dsh-wsl-dns",
-  "version": "0.1.0",
-  "description": "Compare WSL vs Windows DNS resolution for common endpoints.",
+  "version": "0.2.0",
+  "description": "dns_doctor: compare WSL vs Windows DNS, flag mismatches and resolv.conf issues.",
   "license": "MIT",
   "repository": {
     "type": "git",

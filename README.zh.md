@@ -1,21 +1,12 @@
 # dsh-wsl-dns
-> **套件安装：** 见 [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit)。推荐 `KIT_SET=daily` | `llm` | `github` | `full`。故障树：[TROUBLESHOOTING.zh.md](https://github.com/173787247/dsh-wsl-kit/blob/master/docs/TROUBLESHOOTING.zh.md)。
 
+> **套件：** [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit)
 
-DeepSeek Harness 插件：对比 WSL 与 Windows 对常用端点的 DNS 解析。
-
-配套 **[dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit)**。
-
-[English → README.md](./README.md)
-
-## 安装
+**`dns_doctor`**：对比 WSL 与 Windows 对 DeepSeek/GitHub/npm 的 DNS，标记不一致并读 `resolv.conf`。
 
 ```sh
 dsh plugin --profile web add github:173787247/dsh-wsl-dns
+npm test
 ```
-
-重启 `dsh web` 并开**新**会话。工具名：`dns_doctor`。
-
-## 许可
 
 MIT
