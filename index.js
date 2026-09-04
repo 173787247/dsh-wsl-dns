@@ -11,12 +11,13 @@ export function apply(ctx, config = {}) {
   ctx.systemPrompt.section({
     name: "tool:dns_doctor",
     order: 116,
-    text: "Use dns_doctor for WSL/Windows interop: Compare WSL vs Windows DNS resolution for common endpoints.",
+    text: "Use dns_doctor when HTTPS fails oddly: compare WSL vs Windows DNS for api.deepseek.com / GitHub / npm. Pair with net_doctor and clock_doctor.",
   });
 
   ctx.tools.register({
     name: "dns_doctor",
-    description: "Compare WSL vs Windows DNS resolution for common endpoints.",
+    description:
+      "Compare WSL vs Windows DNS (A records) for DeepSeek/GitHub/npm; flag mismatches and resolv.conf nameserver.",
     parameters: core.parameters(config),
     output: {
       schema: core.outputSchema(),
