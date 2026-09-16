@@ -23,3 +23,15 @@ npm test
 ```
 
 MIT
+
+## 在套件里的位置
+
+对比 WSL 的 resolv.conf 和 Windows DNS。不改代理。
+
+```mermaid
+flowchart LR
+  agent["dsh agent"] --> tool["dns_doctor"] --> dns["WSL DNS 对比 Windows DNS"]
+```
+
+整套关系图和版本快照：[dsh-wsl-kit 中文说明](https://github.com/173787247/dsh-wsl-kit/blob/master/README.zh.md)。本插件是 **0.2.0**（full，也在 llm）。不要把那份总表抄进本 README。
+

@@ -22,3 +22,15 @@ npm test
 ```
 
 MIT
+
+## Where it sits
+
+Compares WSL resolv.conf with Windows DNS. It does not change the proxy.
+
+```mermaid
+flowchart LR
+  agent["dsh agent"] --> tool["dns_doctor"] --> dns["WSL DNS vs Windows DNS"]
+```
+
+Suite diagram and version snapshot: [dsh-wsl-kit](https://github.com/173787247/dsh-wsl-kit#how-the-pieces-fit). This plugin is **0.2.0** (full; also in llm). Do not copy that matrix into this README.
+
